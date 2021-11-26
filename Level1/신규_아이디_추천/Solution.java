@@ -31,7 +31,6 @@ public class Solution {
         answer = answer.replaceAll("[.]$", "");
 
         // 7단계 new_id의 길이가 2자 이하라면, new_id의 마지막 문자를 new_id의 길이가 3이 될 때까지 반복해서 끝에 붙입니다.
-
         while (answer.length() <= 2) {
             answer += answer.substring(answer.length() - 1);
         }
