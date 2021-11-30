@@ -1,5 +1,4 @@
 package 소수_찾기;
-import java.util.*;
 class Solution {
     public static int solution(int n) {
         int answer = -Math.floorDiv(-n,2);
